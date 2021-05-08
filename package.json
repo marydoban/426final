@@ -1,0 +1,26 @@
+{
+  "name": "426final",
+  "version": "1.0.0",
+  "description": "travel based trivia game",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "easy-autocomplete": "^1.3.5",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marydoban/426final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marydoban/426final/issues"
+  },
+  "homepage": "https://github.com/marydoban/426final#readme"
+}
