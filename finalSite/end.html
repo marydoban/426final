@@ -1,0 +1,36 @@
+<!Doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <title>End</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="end" class = "flex-center flex-coumn" ></div>
+        <h1 id = "finalScore">0</h1>
+            <form class = "end-form-container" >
+                <h2 id = "end-text">Enter Name Below to save score</h2>
+                <input type = "text" name = "name" id  = "name_input" list = "huge_list"> Enter name
+                <datalist id = "name_list">
+                </datalist>
+                <br/>
+                <button class = "btn" id = "saveScoreBtn" type = "submit"
+                onClick = "saveHighScore(event)" disabled> Save</button>
+                
+            </form>
+            <a href = "./game.html" class = "btn"> Play Again</a>
+            <a href = "./index.html" class = " hombtn btn" > Go Home <i class = "fas fa-home"></i></a>
+        </div>
+            
+    </div>
+    <script src= 'end.js'> </script>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+</body>
+</html>
